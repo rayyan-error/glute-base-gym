@@ -12,51 +12,67 @@
 </head>
 <body>
 
-  <!-- Template & Delivery Indicator Top Strip -->
-  <div class="template-top-banner">
-    <div class="container template-top-inner">
-      <span class="template-pill pink">[ Official Equipment Roster In Draft ]</span>
-      <span class="template-pill cyan">[ Menu &amp; Tariffs Updating by Friday ]</span>
-      <span>⚡ Founded by Dhana — Dual-Concept Strength &amp; Nutrition Preview</span>
-    </div>
+  <!-- Top Announcement Bar -->
+  <div class="top-notice-bar">
+    <span class="badge-pink">FREE 1-DAY PASS</span>
+    <strong>Try Glute Base Gym Free</strong> • Behind Gayatri Gents PG, Venkateshwara Layout, SG Palya
   </div>
 
   <!-- Header -->
   <header class="header">
-    <div class="container navbar">
-      <a href="index.html" class="logo">
-        <div class="logo-badge">GB</div>
-        <div class="logo-text">
-          <h2>Glute Base</h2>
-          <span>&times; Fuel Base Kitchen</span>
-        </div>
-      </a>
+    <div class="container">
+      <div class="header-main-row">
+        <a href="index.html" class="logo" aria-label="Glute Base and Fuel Base Home">
+          <div class="logo-badge">GB</div>
+          <div class="logo-text">
+            <h2>Glute Base</h2>
+            <span>&times; Fuel Base Kitchen</span>
+          </div>
+        </a>
 
-      <div class="concept-switcher" role="tablist" aria-label="Dual Concept Switcher">
+        <div class="header-center">
+          <div class="concept-switcher" role="tablist" aria-label="Dual Concept Switcher">
+            <a href="index.html#glute-base" class="concept-tab gym-tab active">
+              <span class="dot"></span>
+              <span>Glute Base • Gym</span>
+            </a>
+            <a href="index.html#fuel-base" class="concept-tab fuel-tab">
+              <span class="dot"></span>
+              <span>Fuel Base • Meals</span>
+            </a>
+          </div>
+        </div>
+
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About Gym</a></li>
+            <li><a href="programs.html" class="nav-link">Programs</a></li>
+            <li><a href="membership.html" class="nav-link">Tariffs &amp; Deals</a></li>
+            <li><a href="contact.html" class="nav-link active">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20I%20have%20an%20inquiry%20about%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
+            💬 WhatsApp
+          </a>
+          <button class="mobile-menu-btn" aria-label="Toggle navigation menu">☰</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Concept Sub-Bar -->
+    <div class="concept-sub-bar">
+      <div class="concept-switcher" role="tablist" aria-label="Mobile Concept Switcher">
         <a href="index.html#glute-base" class="concept-tab gym-tab active">
           <span class="dot"></span>
-          <span>[ Glute Base <span class="tab-divider">|</span> Gym ]</span>
+          <span>Glute Base • Gym</span>
         </a>
         <a href="index.html#fuel-base" class="concept-tab fuel-tab">
           <span class="dot"></span>
-          <span>[ Fuel Base <span class="tab-divider">|</span> Meals ]</span>
+          <span>Fuel Base • Meals</span>
         </a>
-      </div>
-
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html" class="nav-link">Home</a></li>
-          <li><a href="about.html" class="nav-link">About</a></li>
-          <li><a href="programs.html" class="nav-link">Programs</a></li>
-          <li><a href="membership.html" class="nav-link">Tariffs</a></li>
-          <li><a href="contact.html" class="nav-link active">Contact</a></li>
-        </ul>
-      </nav>
-
-      <div class="header-actions">
-        <a href="tel:+918050184577" class="btn btn-outline btn-sm">📞 Call</a>
-        <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20I%20have%20an%20inquiry%20about%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">💬 WhatsApp</a>
-        <button class="mobile-menu-btn" aria-label="Toggle navigation">☰</button>
       </div>
     </div>
   </header>
@@ -233,7 +249,7 @@
         <p class="section-subtitle">Located in Venkateshwara Layout, SG Palya with easy pedestrian and two-wheeler access.</p>
       </div>
 
-      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.75rem; margin-bottom: 3.5rem;">
+      <div class="three-col-grid" style="margin-bottom: 3.5rem;">
         
         <div style="background: var(--bg-card); border: 1px solid var(--border-dark); border-radius: var(--radius-md); padding: 1.75rem;">
           <div style="font-size: 2rem; margin-bottom: 0.75rem;">🎓</div>

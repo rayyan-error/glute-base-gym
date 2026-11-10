@@ -2,61 +2,77 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <title>Training Programs &amp; Equipment | Glute Base Gym SG Palya</title>
   <meta name="description" content="Explore workout programs at Glute Base Gym: glute building, powerlifting, fat loss, personal coaching, and functional training in Venkateshwara Layout, SG Palya.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- Template & Delivery Indicator Top Strip -->
-  <div class="template-top-banner">
-    <div class="container template-top-inner">
-      <span class="template-pill pink">[ Official Equipment Roster In Draft ]</span>
-      <span class="template-pill cyan">[ Menu &amp; Tariffs Updating by Friday ]</span>
-      <span>⚡ Founded by Dhana — Dual-Concept Strength &amp; Nutrition Preview</span>
-    </div>
+  <!-- Top Announcement Bar -->
+  <div class="top-notice-bar">
+    <span class="badge-pink">SG PALYA</span>
+    <strong>Glute Base &times; Fuel Base</strong> • Venkateshwara Layout, Behind Gayatri Gents PG • 5.0 ★
   </div>
 
   <!-- Header -->
   <header class="header">
-    <div class="container navbar">
-      <a href="index.html" class="logo">
-        <div class="logo-badge">GB</div>
-        <div class="logo-text">
-          <h2>Glute Base</h2>
-          <span>&times; Fuel Base Kitchen</span>
-        </div>
-      </a>
+    <div class="container">
+      <div class="header-main-row">
+        <a href="index.html" class="logo" aria-label="Glute Base and Fuel Base Home">
+          <div class="logo-badge">GB</div>
+          <div class="logo-text">
+            <h2>Glute Base</h2>
+            <span>&times; Fuel Base Kitchen</span>
+          </div>
+        </a>
 
-      <div class="concept-switcher" role="tablist" aria-label="Dual Concept Switcher">
+        <div class="header-center">
+          <div class="concept-switcher" role="tablist" aria-label="Dual Concept Switcher">
+            <a href="index.html#glute-base" class="concept-tab gym-tab active">
+              <span class="dot"></span>
+              <span>Glute Base • Gym</span>
+            </a>
+            <a href="index.html#fuel-base" class="concept-tab fuel-tab">
+              <span class="dot"></span>
+              <span>Fuel Base • Meals</span>
+            </a>
+          </div>
+        </div>
+
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About Gym</a></li>
+            <li><a href="programs.html" class="nav-link active">Programs</a></li>
+            <li><a href="membership.html" class="nav-link">Tariffs &amp; Deals</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20I%20have%20an%20inquiry%20about%20workout%20programs." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
+            💬 WhatsApp
+          </a>
+          <button class="mobile-menu-btn" aria-label="Toggle navigation menu">☰</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Concept Sub-Bar -->
+    <div class="concept-sub-bar">
+      <div class="concept-switcher" role="tablist" aria-label="Mobile Concept Switcher">
         <a href="index.html#glute-base" class="concept-tab gym-tab active">
           <span class="dot"></span>
-          <span>[ Glute Base <span class="tab-divider">|</span> Gym ]</span>
+          <span>Glute Base • Gym</span>
         </a>
         <a href="index.html#fuel-base" class="concept-tab fuel-tab">
           <span class="dot"></span>
-          <span>[ Fuel Base <span class="tab-divider">|</span> Meals ]</span>
+          <span>Fuel Base • Meals</span>
         </a>
-      </div>
-
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html" class="nav-link">Home</a></li>
-          <li><a href="about.html" class="nav-link">About</a></li>
-          <li><a href="programs.html" class="nav-link active">Programs</a></li>
-          <li><a href="membership.html" class="nav-link">Tariffs</a></li>
-          <li><a href="contact.html" class="nav-link">Contact</a></li>
-        </ul>
-      </nav>
-
-      <div class="header-actions">
-        <a href="tel:+918050184577" class="btn btn-outline btn-sm">📞 Call</a>
-        <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20I%20have%20an%20inquiry%20about%20workout%20programs." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">💬 WhatsApp</a>
-        <button class="mobile-menu-btn" aria-label="Toggle navigation">☰</button>
       </div>
     </div>
   </header>
@@ -79,26 +95,26 @@
     <div class="container">
       
       <!-- Track 1: Glute Hypertrophy -->
-      <div id="glute" style="background: var(--bg-card); border: 1px solid var(--border-dark); border-radius: var(--radius-md); padding: 2.5rem; margin-bottom: 2.5rem;">
-        <div style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 2.5rem; align-items: center;">
+      <div id="glute" class="template-card" style="padding: 1.75rem; margin-bottom: 2rem;">
+        <div class="two-col-grid">
           <div>
             <span class="section-tag">Signature Track</span>
-            <h2 style="font-family: var(--font-heading); font-size: 1.85rem; font-weight: 900; text-transform: uppercase; color: var(--accent); margin-bottom: 1rem;">
+            <h2 style="font-family: var(--font-heading); font-size: 1.75rem; font-weight: 900; text-transform: uppercase; color: var(--pink); margin-bottom: 0.85rem;">
               Glute Development &amp; Lower Body
             </h2>
-            <p style="color: var(--text-gray); font-size: 0.95rem; line-height: 1.7; margin-bottom: 1.25rem;">
+            <p style="color: var(--text-gray); font-size: 0.95rem; line-height: 1.65; margin-bottom: 1.15rem;">
               Our namesake program. Unlike standard gym routines where glutes are treated as an afterthought during generic squats, Glute Base integrates specialized pelvic mechanics to maximize gluteus maximus, medius, and minimus recruitment.
             </p>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 1.5rem;">
-              <div style="font-size: 0.85rem; color: #d1d5db;">▸ Dedicated Hip Thrust Units</div>
-              <div style="font-size: 0.85rem; color: #d1d5db;">▸ Heavy Plate-Loaded 45° Leg Press</div>
-              <div style="font-size: 0.85rem; color: #d1d5db;">▸ Cable Kickback &amp; Pull-Throughs</div>
-              <div style="font-size: 0.85rem; color: #d1d5db;">▸ Romanian Deadlift Barbell Platforms</div>
+            <div class="feature-checklist-grid">
+              <div style="font-size: 0.84rem; color: #d1d5db;">▸ Dedicated Hip Thrust Units</div>
+              <div style="font-size: 0.84rem; color: #d1d5db;">▸ Plate-Loaded 45° Leg Press</div>
+              <div style="font-size: 0.84rem; color: #d1d5db;">▸ Cable Kickbacks &amp; Pulleys</div>
+              <div style="font-size: 0.84rem; color: #d1d5db;">▸ Romanian Deadlift Platforms</div>
             </div>
-            <a href="https://wa.me/918050184577?text=Hi%2C%20tell%20me%20more%20about%20the%20Glute%20Development%20Program." target="_blank" rel="noopener" class="btn btn-primary btn-sm">Inquire on WhatsApp →</a>
+            <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20tell%20me%20more%20about%20the%20Glute%20Development%20Program." target="_blank" rel="noopener" class="btn btn-pink btn-sm">Inquire on WhatsApp →</a>
           </div>
           <div>
-            <div style="border-radius: var(--radius-md); overflow: hidden; border: 2px solid var(--border-dark);">
+            <div class="hero-image-box">
               <img src="images/gym_glute_machines.jpg" alt="Glute Machines and Stations at Glute Base Gym" width="500" height="300">
             </div>
           </div>
@@ -106,53 +122,53 @@
       </div>
 
       <!-- Track 2: Free Weights & Muscle Hypertrophy -->
-      <div id="weights" style="background: var(--bg-card); border: 1px solid var(--border-dark); border-radius: var(--radius-md); padding: 2.5rem; margin-bottom: 2.5rem;">
-        <div style="display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 2.5rem; align-items: center;">
+      <div id="weights" class="template-card" style="padding: 1.75rem; margin-bottom: 2rem;">
+        <div class="two-col-grid">
           <div>
-            <div style="border-radius: var(--radius-md); overflow: hidden; border: 2px solid var(--border-dark);">
+            <div class="hero-image-box">
               <img src="images/gym_dumbbells_rack.jpg" alt="Dumbbells and Weights at Glute Base Gym" width="500" height="300">
             </div>
           </div>
           <div>
             <span class="section-tag">Strength &amp; Muscle</span>
-            <h2 style="font-family: var(--font-heading); font-size: 1.85rem; font-weight: 900; text-transform: uppercase; color: var(--accent); margin-bottom: 1rem;">
+            <h2 style="font-family: var(--font-heading); font-size: 1.75rem; font-weight: 900; text-transform: uppercase; color: var(--pink); margin-bottom: 0.85rem;">
               Heavy Iron &amp; Hypertrophy
             </h2>
-            <p style="color: var(--text-gray); font-size: 0.95rem; line-height: 1.7; margin-bottom: 1.25rem;">
+            <p style="color: var(--text-gray); font-size: 0.95rem; line-height: 1.65; margin-bottom: 1.15rem;">
               Engineered for lifters who prioritize fundamental compound lifts. Whether you follow a Push/Pull/Legs (PPL) split, Upper/Lower, or full-body heavy volume, our floor has the iron to back your strength goals.
             </p>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 1.5rem;">
-              <div style="font-size: 0.85rem; color: #d1d5db;">▸ Complete Dumbbell Racks (2.5kg–40kg+)</div>
-              <div style="font-size: 0.85rem; color: #d1d5db;">▸ Olympic Barbells &amp; Bumper Plates</div>
-              <div style="font-size: 0.85rem; color: #d1d5db;">▸ Flat, Incline &amp; Military Press Benches</div>
-              <div style="font-size: 0.85rem; color: #d1d5db;">▸ Dual Cable Crossover System</div>
+            <div class="feature-checklist-grid">
+              <div style="font-size: 0.84rem; color: #d1d5db;">▸ Full Dumbbell Racks (2.5kg–40kg+)</div>
+              <div style="font-size: 0.84rem; color: #d1d5db;">▸ Olympic Barbells &amp; Plates</div>
+              <div style="font-size: 0.84rem; color: #d1d5db;">▸ Flat &amp; Incline Press Benches</div>
+              <div style="font-size: 0.84rem; color: #d1d5db;">▸ Dual Cable Crossover System</div>
             </div>
-            <a href="https://wa.me/918050184577?text=Hi%2C%20I%20am%20interested%20in%20strength%20training%20at%20Glute%20Base." target="_blank" rel="noopener" class="btn btn-outline btn-sm">Chat with Head Coach →</a>
+            <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20I%20am%20interested%20in%20strength%20training%20at%20Glute%20Base." target="_blank" rel="noopener" class="btn btn-outline btn-sm">Chat with Head Coach →</a>
           </div>
         </div>
       </div>
 
       <!-- Track 3: Cardio & Conditioning -->
-      <div id="cardio" style="background: var(--bg-card); border: 1px solid var(--border-dark); border-radius: var(--radius-md); padding: 2.5rem; margin-bottom: 2.5rem;">
-        <div style="display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 2.5rem; align-items: center;">
+      <div id="cardio" class="template-card" style="padding: 1.75rem; margin-bottom: 2rem;">
+        <div class="two-col-grid">
           <div>
             <span class="section-tag">Endurance &amp; Shred</span>
-            <h2 style="font-family: var(--font-heading); font-size: 1.85rem; font-weight: 900; text-transform: uppercase; color: var(--accent); margin-bottom: 1rem;">
+            <h2 style="font-family: var(--font-heading); font-size: 1.75rem; font-weight: 900; text-transform: uppercase; color: var(--pink); margin-bottom: 0.85rem;">
               Cardio, Fat Loss &amp; Conditioning
             </h2>
-            <p style="color: var(--text-gray); font-size: 0.95rem; line-height: 1.7; margin-bottom: 1.25rem;">
+            <p style="color: var(--text-gray); font-size: 0.95rem; line-height: 1.65; margin-bottom: 1.15rem;">
               Burn calories, elevate heart rate, and accelerate metabolic fat burning on our commercial cardio deck. Every cardio machine is cushioned to preserve knee cartilage while enabling high-intensity endurance.
             </p>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 1.5rem;">
-              <div style="font-size: 0.85rem; color: #d1d5db;">▸ Motorized Incline Treadmills</div>
-              <div style="font-size: 0.85rem; color: #d1d5db;">▸ Elliptical Cross-Trainers</div>
-              <div style="font-size: 0.85rem; color: #d1d5db;">▸ HIIT Sprints &amp; Interval Work</div>
-              <div style="font-size: 0.85rem; color: #d1d5db;">▸ Heart Rate &amp; Calorie Tracking</div>
+            <div class="feature-checklist-grid">
+              <div style="font-size: 0.84rem; color: #d1d5db;">▸ Motorized Incline Treadmills</div>
+              <div style="font-size: 0.84rem; color: #d1d5db;">▸ Elliptical Cross-Trainers</div>
+              <div style="font-size: 0.84rem; color: #d1d5db;">▸ HIIT Sprints &amp; Interval Turf</div>
+              <div style="font-size: 0.84rem; color: #d1d5db;">▸ Heart Rate &amp; Calorie Tracking</div>
             </div>
             <a href="membership.html" class="btn btn-outline btn-sm">Check Membership Plans →</a>
           </div>
           <div>
-            <div style="border-radius: var(--radius-md); overflow: hidden; border: 2px solid var(--border-dark);">
+            <div class="hero-image-box">
               <img src="images/gym_cardio_treadmills.jpg" alt="Cardio and Treadmills at Glute Base Gym" width="500" height="300">
             </div>
           </div>
@@ -160,28 +176,28 @@
       </div>
 
       <!-- Track 4: 1-on-1 Personal Transformation Coaching -->
-      <div id="pt" style="background: var(--bg-card); border: 1px solid var(--border-dark); border-radius: var(--radius-md); padding: 2.5rem;">
-        <div style="display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 2.5rem; align-items: center;">
+      <div id="pt" class="template-card" style="padding: 1.75rem;">
+        <div class="two-col-grid">
           <div>
-            <div style="border-radius: var(--radius-md); overflow: hidden; border: 2px solid var(--border-dark);">
+            <div class="hero-image-box">
               <img src="images/gym_weight_training.jpg" alt="Personal Training Session at Glute Base Gym" width="500" height="300">
             </div>
           </div>
           <div>
             <span class="section-tag">Dedicated Mentorship</span>
-            <h2 style="font-family: var(--font-heading); font-size: 1.85rem; font-weight: 900; text-transform: uppercase; color: var(--accent); margin-bottom: 1rem;">
+            <h2 style="font-family: var(--font-heading); font-size: 1.75rem; font-weight: 900; text-transform: uppercase; color: var(--pink); margin-bottom: 0.85rem;">
               1-on-1 Personal Training (PT)
             </h2>
-            <p style="color: var(--text-gray); font-size: 0.95rem; line-height: 1.7; margin-bottom: 1.25rem;">
+            <p style="color: var(--text-gray); font-size: 0.95rem; line-height: 1.65; margin-bottom: 1.15rem;">
               Need accountability, strict form supervision, and weekly body composition audits? Our certified personal coaches work with you one-on-one to construct a personalized lifting calendar and calculated nutritional macros.
             </p>
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 1.5rem;">
-              <div style="font-size: 0.85rem; color: #d1d5db;">▸ 100% Focused One-on-One Coaching</div>
-              <div style="font-size: 0.85rem; color: #d1d5db;">▸ Tailored Diet Plan (Hostel/Home friendly)</div>
-              <div style="font-size: 0.85rem; color: #d1d5db;">▸ Bi-Weekly Body Fat &amp; Tape Audits</div>
-              <div style="font-size: 0.85rem; color: #d1d5db;">▸ Faster, Guaranteed Transformation</div>
+            <div class="feature-checklist-grid">
+              <div style="font-size: 0.84rem; color: #d1d5db;">▸ 1-on-1 Dedicated Coaching</div>
+              <div style="font-size: 0.84rem; color: #d1d5db;">▸ Tailored Fuel Base Meal Plan</div>
+              <div style="font-size: 0.84rem; color: #d1d5db;">▸ Bi-Weekly Body Fat Audits</div>
+              <div style="font-size: 0.84rem; color: #d1d5db;">▸ Faster, Guaranteed Transformation</div>
             </div>
-            <a href="https://wa.me/918050184577?text=Hi%2C%20I%20am%20interested%20in%201-on-1%20Personal%20Training%20at%20Glute%20Base." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">💬 Book PT Consultation on WhatsApp</a>
+            <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20I%20am%20interested%20in%201-on-1%20Personal%20Training%20at%20Glute%20Base." target="_blank" rel="noopener" class="btn btn-pink btn-sm">💬 Book PT Consultation</a>
           </div>
         </div>
       </div>
@@ -193,11 +209,11 @@
   <section class="cta-banner">
     <div class="container">
       <h2>Experience The Floor Firsthand</h2>
-      <p>Claim your Free 1-Day Trial Pass. Test our machines, lift the weights, and talk to our trainers in Venkateshwara Layout.</p>
+      <p>Claim your Free 1-Day Trial Pass. Test our machines, lift the weights, and talk to head coach Dhana in Venkateshwara Layout.</p>
       <div class="cta-buttons">
         <a href="tel:+918050184577" class="btn btn-outline-white btn-lg">📞 Call +91 80501 84577</a>
-        <a href="https://wa.me/918050184577?text=Hi%2C%20I%20want%20to%20claim%20my%20Free%201-Day%20Trial%20Pass." target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">💬 Claim Free 1-Day Pass</a>
-        <a href="membership.html" class="btn btn-primary btn-lg">View Ongoing Sale Offers</a>
+        <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20I%20want%20to%20claim%20my%20Free%201-Day%20Trial%20Pass." target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">💬 Claim Free 1-Day Pass</a>
+        <a href="membership.html" class="btn btn-primary btn-lg">View Membership Deals</a>
       </div>
     </div>
   </section>
@@ -207,16 +223,17 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-col">
-          <div class="logo" style="margin-bottom: 1rem;">
+          <div class="logo" style="margin-bottom: 0.85rem;">
             <div class="logo-badge">GB</div>
             <div class="logo-text">
-              <h4 style="margin: 0;">Glute Base</h4>
-              <span>Gym &amp; Fitness Centre</span>
+              <h4 style="margin: 0; color: var(--text-white);">Glute Base &times; Fuel Base</h4>
+              <span>Strength &amp; Nutrition Powerhouse</span>
             </div>
           </div>
-          <p style="font-size: 0.875rem; line-height: 1.6;">
-            Premiere strength, hypertrophy, and glute-specialized fitness studio in Venkateshwara Layout, SG Palya, Bengaluru.
+          <p style="font-size: 0.86rem; line-height: 1.6; margin-bottom: 0.85rem;">
+            Premiere strength, hypertrophy, and nutrition facility in Venkateshwara Layout, SG Palya, Bengaluru.
           </p>
+          <span class="badge-clean pink">⭐ 5.0 ★ Rated on Google</span>
         </div>
 
         <div class="footer-col footer-links">
@@ -224,8 +241,8 @@
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Gym</a></li>
-            <li><a href="programs.html">Programs &amp; Equipment</a></li>
-            <li><a href="membership.html">Memberships &amp; Deals</a></li>
+            <li><a href="programs.html">Programs &amp; Gear</a></li>
+            <li><a href="membership.html">Tariffs &amp; Deals</a></li>
             <li><a href="contact.html">Contact &amp; Pass</a></li>
           </ul>
         </div>
@@ -241,26 +258,26 @@
         </div>
 
         <div class="footer-col">
-          <h4>Gym Hours &amp; Location</h4>
-          <p style="font-size: 0.85rem; margin-bottom: 0.5rem;">
-            Mon – Sat: 6:00 AM – 10:30 PM<br>
-            Sunday: 3:00 PM – 8:00 PM
+          <h4>Timings &amp; Contact</h4>
+          <p style="font-size: 0.85rem; margin-bottom: 0.4rem; color: var(--text-slate);">
+            <strong>Mon – Sat:</strong> 6:00 AM – 10:30 PM<br>
+            <strong>Sunday:</strong> 3:00 PM – 8:00 PM
           </p>
-          <p style="font-size: 0.85rem; color: #d1d5db; margin-bottom: 0.75rem;">
+          <p style="font-size: 0.85rem; color: var(--text-gray); margin-bottom: 0.75rem;">
             158, 4th Cross, Venkateshwara Layout, SG Palya, Bengaluru 560029
           </p>
-          <a href="tel:+918050184577" style="color: var(--accent); font-weight: 800;">📞 +91 80501 84577</a>
+          <a href="tel:+918050184577" style="color: var(--cyan); font-weight: 800;">📞 +91 80501 84577</a>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <div>© 2026 Glute Base Gym &amp; Fitness Centre. All rights reserved.</div>
+        <div>© 2026 Glute Base Gym &amp; Fuel Base Kitchen. All rights reserved.</div>
         <div style="color: var(--text-muted);">Venkateshwara Layout, SG Palya, Bengaluru.</div>
       </div>
     </div>
   </footer>
 
-  <a href="https://wa.me/918050184577?text=Hi%2C%20I%20have%20an%20inquiry%20about%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="floating-whatsapp" aria-label="WhatsApp Glute Base Gym">
+  <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20I%20have%20an%20inquiry%20about%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="floating-whatsapp" aria-label="WhatsApp Glute Base Gym">
     💬
   </a>
 

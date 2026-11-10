@@ -2,61 +2,77 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <title>Memberships &amp; Ongoing Sale | Glute Base Gym SG Palya</title>
   <meta name="description" content="Affordable gym memberships and student discounts at Glute Base Gym, SG Palya, Bengaluru. Ongoing Sale: 3 Months + 1 Month FREE and Flat ₹1,000 OFF on Annual Plans.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- Template & Delivery Indicator Top Strip -->
-  <div class="template-top-banner">
-    <div class="container template-top-inner">
-      <span class="template-pill pink">[ Official Equipment Roster In Draft ]</span>
-      <span class="template-pill cyan">[ Menu &amp; Tariffs Updating by Friday ]</span>
-      <span>⚡ Founded by Dhana — Dual-Concept Strength &amp; Nutrition Preview</span>
-    </div>
+  <!-- Top Announcement Bar -->
+  <div class="top-notice-bar">
+    <span class="badge-pink">SPECIAL OFFER</span>
+    <strong>3 Months + 1 Month FREE</strong> • Student Discounts Available • Venkateshwara Layout, SG Palya
   </div>
 
   <!-- Header -->
   <header class="header">
-    <div class="container navbar">
-      <a href="index.html" class="logo">
-        <div class="logo-badge">GB</div>
-        <div class="logo-text">
-          <h2>Glute Base</h2>
-          <span>&times; Fuel Base Kitchen</span>
-        </div>
-      </a>
+    <div class="container">
+      <div class="header-main-row">
+        <a href="index.html" class="logo" aria-label="Glute Base and Fuel Base Home">
+          <div class="logo-badge">GB</div>
+          <div class="logo-text">
+            <h2>Glute Base</h2>
+            <span>&times; Fuel Base Kitchen</span>
+          </div>
+        </a>
 
-      <div class="concept-switcher" role="tablist" aria-label="Dual Concept Switcher">
+        <div class="header-center">
+          <div class="concept-switcher" role="tablist" aria-label="Dual Concept Switcher">
+            <a href="index.html#glute-base" class="concept-tab gym-tab active">
+              <span class="dot"></span>
+              <span>Glute Base • Gym</span>
+            </a>
+            <a href="index.html#fuel-base" class="concept-tab fuel-tab">
+              <span class="dot"></span>
+              <span>Fuel Base • Meals</span>
+            </a>
+          </div>
+        </div>
+
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About Gym</a></li>
+            <li><a href="programs.html" class="nav-link">Programs</a></li>
+            <li><a href="membership.html" class="nav-link active">Tariffs &amp; Deals</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20I%20want%20to%20inquire%20about%20memberships%20at%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
+            💬 WhatsApp
+          </a>
+          <button class="mobile-menu-btn" aria-label="Toggle navigation menu">☰</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Concept Sub-Bar -->
+    <div class="concept-sub-bar">
+      <div class="concept-switcher" role="tablist" aria-label="Mobile Concept Switcher">
         <a href="index.html#glute-base" class="concept-tab gym-tab active">
           <span class="dot"></span>
-          <span>[ Glute Base <span class="tab-divider">|</span> Gym ]</span>
+          <span>Glute Base • Gym</span>
         </a>
         <a href="index.html#fuel-base" class="concept-tab fuel-tab">
           <span class="dot"></span>
-          <span>[ Fuel Base <span class="tab-divider">|</span> Meals ]</span>
+          <span>Fuel Base • Meals</span>
         </a>
-      </div>
-
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html" class="nav-link">Home</a></li>
-          <li><a href="about.html" class="nav-link">About</a></li>
-          <li><a href="programs.html" class="nav-link">Programs</a></li>
-          <li><a href="membership.html" class="nav-link active">Tariffs</a></li>
-          <li><a href="contact.html" class="nav-link">Contact</a></li>
-        </ul>
-      </nav>
-
-      <div class="header-actions">
-        <a href="tel:+918050184577" class="btn btn-outline btn-sm">📞 Call</a>
-        <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20I%20want%20to%20inquire%20about%20memberships%20at%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">💬 WhatsApp</a>
-        <button class="mobile-menu-btn" aria-label="Toggle navigation">☰</button>
       </div>
     </div>
   </header>
@@ -75,20 +91,20 @@
   </section>
 
   <!-- Ongoing Deal Spotlight Banner -->
-  <section class="section section-surface" style="padding: 2.5rem 0; border-bottom: 1px solid var(--border-dark);">
+  <section class="section section-surface" style="padding: 2.25rem 0; border-bottom: 1px solid var(--border-dark);">
     <div class="container">
-      <div style="background: linear-gradient(135deg, rgba(255, 85, 0, 0.15) 0%, rgba(20, 24, 32, 0.95) 100%); border: 2px solid var(--accent); border-radius: var(--radius-md); padding: 2rem; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1.5rem;">
+      <div class="showcase-cta-bar pink-bar">
         <div>
-          <span class="badge badge-sale" style="margin-bottom: 0.5rem; display: inline-block;">Limited Period Special</span>
-          <h2 style="font-family: var(--font-heading); font-size: 1.75rem; text-transform: uppercase; margin-bottom: 0.5rem; color: var(--text-white);">
+          <span class="badge-clean pink" style="margin-bottom: 0.4rem; display: inline-block;">Limited Period Special</span>
+          <h2 style="font-family: var(--font-heading); font-size: 1.65rem; text-transform: uppercase; margin-bottom: 0.4rem; color: var(--text-white);">
             🔥 3 Months + 1 Month FREE / Flat ₹1,000 OFF
           </h2>
-          <p style="color: #d1d5db; font-size: 0.95rem; max-width: 650px; margin: 0;">
-            Sign up this week for our quarterly or annual membership and get an additional month free or a flat ₹1,000 instant discount. Special extra concessions available for Christ University students.
+          <p style="color: #d1d5db; font-size: 0.92rem; max-width: 620px; margin: 0;">
+            Sign up this week for our quarterly or annual membership and get an additional month free or a flat ₹1,000 instant discount. Special extra concessions for Christ University students.
           </p>
         </div>
         <div>
-          <a href="https://wa.me/918050184577?text=Hi%2C%20I%20would%20like%20to%20claim%20the%20Ongoing%20Sale%20%283%20Months%20%2B%201%20Month%20FREE%29%20at%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+          <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20I%20would%20like%20to%20claim%20the%20Ongoing%20Sale%20%283%20Months%20%2B%201%20Month%20FREE%29%20at%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-pink btn-lg">
             ⚡ Lock In Deal on WhatsApp
           </a>
         </div>
@@ -110,13 +126,13 @@
         <!-- 1 Month -->
         <div class="pricing-card">
           <div class="plan-name">1 Month Pass</div>
-          <div style="font-size: 0.85rem; color: var(--text-gray);">Ideal for short-term visitors &amp; trial lifters</div>
+          <div style="font-size: 0.82rem; color: var(--text-gray);">Ideal for short-term visitors &amp; trial lifters</div>
           <div class="plan-price">
             <span class="currency">₹</span>
             <span class="amount">1,500</span>
             <span class="duration">/ month</span>
           </div>
-          <span class="plan-sale-tag">Standard Rate</span>
+          <span class="plan-sale-tag">Standard Access</span>
           <ul class="plan-features">
             <li>Full floor &amp; weight room access</li>
             <li>Glute &amp; lower-body machines</li>
@@ -125,7 +141,7 @@
             <li>General trainer floor guidance</li>
             <li>Clean, purified drinking water</li>
           </ul>
-          <a href="https://wa.me/918050184577?text=Hi%2C%20I%20am%20interested%20in%20the%201-Month%20Pass%20%28Rs%201%2C500%29%20at%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-outline" style="width: 100%; text-align: center;">
+          <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20I%20am%20interested%20in%20the%201-Month%20Pass%20%28Rs%201%2C500%29%20at%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-outline" style="width: 100%; text-align: center;">
             Join for 1 Month
           </a>
         </div>
@@ -134,7 +150,7 @@
         <div class="pricing-card featured">
           <div class="featured-ribbon">🔥 BESTSELLER &bull; SALE DEAL</div>
           <div class="plan-name">3 Months + 1 FREE</div>
-          <div style="font-size: 0.85rem; color: #ff9d66;">Most popular student &amp; regular choice</div>
+          <div style="font-size: 0.82rem; color: #ff9d66;">Most popular student &amp; regular choice</div>
           <div class="plan-price">
             <span class="currency">₹</span>
             <span class="amount">3,800</span>
@@ -150,7 +166,7 @@
             <li>Diet &amp; protein guidance for hostelites</li>
             <li>Priority locker facility</li>
           </ul>
-          <a href="https://wa.me/918050184577?text=Hi%2C%20I%20want%20to%20enroll%20in%20the%203%20Months%20%2B%201%20Month%20FREE%20Plan%20%28Rs%203%2C800%29%20at%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-primary" style="width: 100%; text-align: center;">
+          <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20I%20want%20to%20enroll%20in%20the%203%20Months%20%2B%201%20Month%20FREE%20Plan%20%28Rs%203%2C800%29%20at%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-pink" style="width: 100%; text-align: center;">
             Claim 3+1 Deal Now
           </a>
         </div>
@@ -158,7 +174,7 @@
         <!-- 6 Months -->
         <div class="pricing-card">
           <div class="plan-name">6 Months Pass</div>
-          <div style="font-size: 0.85rem; color: var(--text-gray);">For serious body transformation goals</div>
+          <div style="font-size: 0.82rem; color: var(--text-gray);">For serious body transformation goals</div>
           <div class="plan-price">
             <span class="currency">₹</span>
             <span class="amount">6,500</span>
@@ -174,7 +190,7 @@
             <li>Nutritional macros consultation</li>
             <li>Locker &amp; hydration privileges</li>
           </ul>
-          <a href="https://wa.me/918050184577?text=Hi%2C%20I%20am%20interested%20in%20the%206-Month%20Membership%20%28Rs%206%2C500%29%20at%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-outline" style="width: 100%; text-align: center;">
+          <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20I%20am%20interested%20in%20the%206-Month%20Membership%20%28Rs%206%2C500%29%20at%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-outline" style="width: 100%; text-align: center;">
             Join for 6 Months
           </a>
         </div>
@@ -182,11 +198,11 @@
         <!-- 12 Months / Annual Pass -->
         <div class="pricing-card">
           <div class="plan-name">Annual Pass</div>
-          <div style="font-size: 0.85rem; color: var(--text-gray);">Maximum long-term value lifters</div>
+          <div style="font-size: 0.82rem; color: var(--text-gray);">Maximum long-term value lifters</div>
           <div class="plan-price">
             <span class="currency">₹</span>
             <span class="amount">10,999</span>
-            <span class="duration">/ year <s style="font-size: 1rem; color: var(--text-muted);">₹11,999</s></span>
+            <span class="duration">/ year <s style="font-size: 0.95rem; color: var(--text-muted);">₹11,999</s></span>
           </div>
           <span class="plan-sale-tag">Flat ₹1,000 Instant Discount</span>
           <ul class="plan-features">
@@ -195,10 +211,10 @@
             <li>4 Comprehensive body scans per year</li>
             <li>1-Month free freeze option (for holidays/exams)</li>
             <li>4 Complimentary guest workout passes</li>
-            <li>Exclusive Glute Base Gym Shaker Bottle</li>
+            <li>Exclusive Glute Base Shaker Bottle</li>
             <li>Dedicated permanent locker assignment</li>
           </ul>
-          <a href="https://wa.me/918050184577?text=Hi%2C%20I%20want%20to%20claim%20the%20Annual%20Pass%20with%20Flat%20Rs%201%2C000%20OFF%20%28Rs%2010%2C999%29%20at%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-outline" style="width: 100%; text-align: center;">
+          <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20I%20want%20to%20claim%20the%20Annual%20Pass%20with%20Flat%20Rs%201%2C000%20OFF%20%28Rs%2010%2C999%29%20at%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-outline" style="width: 100%; text-align: center;">
             Claim Annual Pass
           </a>
         </div>
@@ -206,24 +222,24 @@
       </div>
 
       <!-- Student Discount Highlight -->
-      <div style="margin-top: 3.5rem; background: var(--bg-card); border: 1px solid var(--border-dark); border-radius: var(--radius-md); padding: 2.5rem;">
-        <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 2.5rem; align-items: center;">
+      <div class="template-card" style="margin-top: 2.75rem; padding: 2rem;">
+        <div class="two-col-grid">
           <div>
             <span class="section-tag">Student Privilege</span>
-            <h3 style="font-family: var(--font-heading); font-size: 1.8rem; text-transform: uppercase; margin-bottom: 1rem;">
+            <h3 style="font-family: var(--font-heading); font-size: 1.65rem; text-transform: uppercase; margin-bottom: 0.85rem;">
               Christ University &amp; SG Palya Students
             </h3>
-            <p style="color: var(--text-gray); font-size: 0.95rem; line-height: 1.7; margin-bottom: 1.25rem;">
-              We understand the student budget. Just 5 minutes from Christ Central Campus and surrounded by student PGs on 4th &amp; 8th Cross, Glute Base Gym offers special verified student pricing. Simply present your valid college ID card at the reception to unlock exclusive quarterly and annual perks.
+            <p style="color: var(--text-gray); font-size: 0.95rem; line-height: 1.65; margin-bottom: 1.15rem;">
+              We understand the student budget. Just 5 minutes from Christ Central Campus and surrounded by student PGs on 4th &amp; 8th Cross, Glute Base Gym offers special verified student pricing. Simply present your valid college ID card at the reception to unlock exclusive perks.
             </p>
-            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-              <div style="background: var(--bg-surface); padding: 0.75rem 1.25rem; border-radius: var(--radius-sm); border: 1px solid var(--border-dark);">
-                <div style="color: var(--accent); font-weight: 800; font-size: 1.1rem;">₹300 Extra OFF</div>
-                <div style="font-size: 0.8rem; color: var(--text-gray);">On 3-Month &amp; 6-Month plans</div>
+            <div style="display: flex; gap: 0.85rem; flex-wrap: wrap;">
+              <div style="background: var(--bg-surface); padding: 0.75rem 1.15rem; border-radius: var(--radius-sm); border: 1px solid var(--border-dark);">
+                <div style="color: var(--pink); font-weight: 800; font-size: 1.05rem;">₹300 Extra OFF</div>
+                <div style="font-size: 0.78rem; color: var(--text-gray);">On 3-Month &amp; 6-Month plans</div>
               </div>
-              <div style="background: var(--bg-surface); padding: 0.75rem 1.25rem; border-radius: var(--radius-sm); border: 1px solid var(--border-dark);">
-                <div style="color: var(--accent); font-weight: 800; font-size: 1.1rem;">Exam Freeze</div>
-                <div style="font-size: 0.8rem; color: var(--text-gray);">Pause membership during semester exams</div>
+              <div style="background: var(--bg-surface); padding: 0.75rem 1.15rem; border-radius: var(--radius-sm); border: 1px solid var(--border-dark);">
+                <div style="color: var(--pink); font-weight: 800; font-size: 1.05rem;">Exam Freeze</div>
+                <div style="font-size: 0.78rem; color: var(--text-gray);">Pause membership during semester exams</div>
               </div>
             </div>
           </div>
@@ -247,61 +263,59 @@
         <p class="section-subtitle">Accelerate your progress with dedicated one-on-one coaching, customized nutrition blueprints, and daily accountability.</p>
       </div>
 
-      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-bottom: 3.5rem;">
+      <div class="three-col-grid" style="margin-bottom: 3rem;">
         
-        <div style="background: var(--bg-card); border: 1px solid var(--border-dark); border-radius: var(--radius-md); padding: 2rem;">
-          <h4 style="font-family: var(--font-heading); font-size: 1.25rem; text-transform: uppercase; margin-bottom: 0.5rem;">12 Sessions (1 Month)</h4>
-          <p style="color: var(--text-gray); font-size: 0.85rem; margin-bottom: 1.25rem;">Technique correction, foundational barbell biomechanics &amp; initial fat loss setup.</p>
-          <div style="font-size: 2rem; font-weight: 900; color: var(--accent); margin-bottom: 1rem;">
-            ₹4,500 <span style="font-size: 0.85rem; color: var(--text-gray); font-weight: 400;">/ month</span>
+        <div class="template-card" style="padding: 1.75rem;">
+          <h4 style="font-family: var(--font-heading); font-size: 1.2rem; text-transform: uppercase; margin-bottom: 0.4rem;">12 Sessions (1 Month)</h4>
+          <p style="color: var(--text-gray); font-size: 0.85rem; margin-bottom: 1.15rem;">Technique correction, barbell biomechanics &amp; fat loss setup.</p>
+          <div style="font-size: 1.9rem; font-weight: 900; color: var(--pink); margin-bottom: 0.85rem;">
+            ₹4,500 <span style="font-size: 0.82rem; color: var(--text-gray); font-weight: 400;">/ month</span>
           </div>
-          <ul style="color: #d1d5db; font-size: 0.85rem; line-height: 1.8; margin-bottom: 1.5rem;">
+          <ul style="color: #d1d5db; font-size: 0.83rem; line-height: 1.75; margin-bottom: 1.35rem;">
             <li>3 Dedicated 1-on-1 sessions per week</li>
             <li>Customized weight progression sheet</li>
             <li>Basal metabolic rate (BMR) analysis</li>
             <li>Correction on squats, deadlifts &amp; presses</li>
           </ul>
-          <a href="https://wa.me/918050184577?text=Hi%2C%20I%20am%20interested%20in%2012-Session%20Personal%20Training%20%28Rs%204%2C500%29%20at%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-outline" style="width: 100%; text-align: center;">Inquire About 1-Mo PT</a>
+          <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20I%20am%20interested%20in%2012-Session%20Personal%20Training%20%28Rs%204%2C500%29%20at%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-outline" style="width: 100%; text-align: center;">Inquire About 1-Mo PT</a>
         </div>
 
-        <div style="background: #1f2735; border: 2px solid var(--accent); border-radius: var(--radius-md); padding: 2rem; position: relative;">
-          <div style="position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--accent); color: #000; font-size: 0.75rem; font-weight: 900; padding: 0.2rem 0.75rem; border-radius: var(--radius-sm); text-transform: uppercase;">
-            RECOMMENDED
+        <div class="template-card featured" style="padding: 1.75rem; border: 2px solid var(--pink); background: #1f2735; position: relative;">
+          <div class="featured-ribbon">RECOMMENDED</div>
+          <h4 style="font-family: var(--font-heading); font-size: 1.2rem; text-transform: uppercase; margin-bottom: 0.4rem;">36 Sessions (3 Months)</h4>
+          <p style="color: #ff9d66; font-size: 0.85rem; margin-bottom: 1.15rem;">Complete body recomposition: build dense muscle while shedding body fat.</p>
+          <div style="font-size: 1.9rem; font-weight: 900; color: var(--pink); margin-bottom: 0.85rem;">
+            ₹11,500 <span style="font-size: 0.82rem; color: var(--text-gray); font-weight: 400;">/ 3 months</span>
           </div>
-          <h4 style="font-family: var(--font-heading); font-size: 1.25rem; text-transform: uppercase; margin-bottom: 0.5rem;">36 Sessions (3 Months)</h4>
-          <p style="color: #ff9d66; font-size: 0.85rem; margin-bottom: 1.25rem;">Complete body recomposition: build dense muscle while shedding stubborn body fat.</p>
-          <div style="font-size: 2rem; font-weight: 900; color: var(--accent); margin-bottom: 1rem;">
-            ₹11,500 <span style="font-size: 0.85rem; color: var(--text-gray); font-weight: 400;">/ 3 months</span>
-          </div>
-          <ul style="color: #d1d5db; font-size: 0.85rem; line-height: 1.8; margin-bottom: 1.5rem;">
+          <ul style="color: #d1d5db; font-size: 0.83rem; line-height: 1.75; margin-bottom: 1.35rem;">
             <li>36 Focused one-on-one sessions</li>
             <li>Glute hypertrophy &amp; posterior chain focus</li>
             <li>Bi-weekly body fat caliper measurements</li>
-            <li>Customized hostel/mess meal replacement plan</li>
+            <li>Customized Fuel Base meal replacement plan</li>
             <li>Direct WhatsApp trainer access for questions</li>
           </ul>
-          <a href="https://wa.me/918050184577?text=Hi%2C%20I%20want%20to%20enroll%20in%20the%203-Month%20Personal%20Training%20Transformation%20%28Rs%2011%2C500%29%20at%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-primary" style="width: 100%; text-align: center;">Book Transformation PT</a>
+          <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20I%20want%20to%20enroll%20in%20the%203-Month%20Personal%20Training%20Transformation%20%28Rs%2011%2C500%29%20at%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-pink" style="width: 100%; text-align: center;">Book Transformation PT</a>
         </div>
 
-        <div style="background: var(--bg-card); border: 1px solid var(--border-dark); border-radius: var(--radius-md); padding: 2rem;">
-          <h4 style="font-family: var(--font-heading); font-size: 1.25rem; text-transform: uppercase; margin-bottom: 0.5rem;">Glute Specialization PT</h4>
-          <p style="color: var(--text-gray); font-size: 0.85rem; margin-bottom: 1.25rem;">Tailored specifically for targeted glute hypertrophy, hip strength, and waist taper.</p>
-          <div style="font-size: 2rem; font-weight: 900; color: var(--accent); margin-bottom: 1rem;">
-            ₹5,000 <span style="font-size: 0.85rem; color: var(--text-gray); font-weight: 400;">/ month</span>
+        <div class="template-card" style="padding: 1.75rem;">
+          <h4 style="font-family: var(--font-heading); font-size: 1.2rem; text-transform: uppercase; margin-bottom: 0.4rem;">Glute Specialization PT</h4>
+          <p style="color: var(--text-gray); font-size: 0.85rem; margin-bottom: 1.15rem;">Tailored specifically for targeted glute hypertrophy, hip strength, and waist taper.</p>
+          <div style="font-size: 1.9rem; font-weight: 900; color: var(--pink); margin-bottom: 0.85rem;">
+            ₹5,000 <span style="font-size: 0.82rem; color: var(--text-gray); font-weight: 400;">/ month</span>
           </div>
-          <ul style="color: #d1d5db; font-size: 0.85rem; line-height: 1.8; margin-bottom: 1.5rem;">
+          <ul style="color: #d1d5db; font-size: 0.83rem; line-height: 1.75; margin-bottom: 1.35rem;">
             <li>Dedicated glute drive &amp; thrust coaching</li>
             <li>Cable kickbacks, abductor variations &amp; RDLs</li>
             <li>Pelvic tilt &amp; lower-back posture alignment</li>
             <li>Measurement tracking every 14 days</li>
           </ul>
-          <a href="https://wa.me/918050184577?text=Hi%2C%20I%20am%20interested%20in%20Glute%20Specialization%20Personal%20Training%20at%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-outline" style="width: 100%; text-align: center;">Inquire About Glute PT</a>
+          <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20I%20am%20interested%20in%20Glute%20Specialization%20Personal%20Training%20at%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-outline" style="width: 100%; text-align: center;">Inquire About Glute PT</a>
         </div>
 
       </div>
 
       <!-- Facility Visuals -->
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+      <div class="two-col-grid">
         <div class="hero-image-box">
           <img src="images/gym_glute_machines.jpg" alt="Dedicated glute machines at Glute Base Gym" width="600" height="350">
         </div>
@@ -313,74 +327,14 @@
     </div>
   </section>
 
-  <!-- Membership FAQ Section -->
-  <section class="section section-dark">
-    <div class="container" style="max-width: 850px;">
-      <div class="section-header">
-        <span class="section-tag">Frequently Asked Questions</span>
-        <h2 class="section-title">Membership Questions Answered</h2>
-        <p class="section-subtitle">Everything you need to know before joining Glute Base Gym.</p>
-      </div>
-
-      <div style="display: flex; flex-direction: column; gap: 1.25rem;">
-        
-        <div style="background: var(--bg-card); border: 1px solid var(--border-dark); border-radius: var(--radius-sm); padding: 1.5rem;">
-          <h4 style="font-family: var(--font-heading); font-size: 1.1rem; color: var(--text-white); margin-bottom: 0.5rem;">
-            1. Are there any hidden registration or admission fees?
-          </h4>
-          <p style="color: var(--text-gray); font-size: 0.9rem; line-height: 1.6; margin: 0;">
-            No. Unlike commercial franchises that charge ₹1,500 to ₹3,000 as "joining fees", our published prices are all-inclusive. You get immediate access to all equipment without any additional admission charges.
-          </p>
-        </div>
-
-        <div style="background: var(--bg-card); border: 1px solid var(--border-dark); border-radius: var(--radius-sm); padding: 1.5rem;">
-          <h4 style="font-family: var(--font-heading); font-size: 1.1rem; color: var(--text-white); margin-bottom: 0.5rem;">
-            2. Can I freeze my membership if I go home for college vacations or exams?
-          </h4>
-          <p style="color: var(--text-gray); font-size: 0.9rem; line-height: 1.6; margin: 0;">
-            Yes! We accommodate college breaks and semester holidays. Annual members receive a 30-day free pause window, and 6-month members can pause for up to 15 days upon prior notice at the reception counter.
-          </p>
-        </div>
-
-        <div style="background: var(--bg-card); border: 1px solid var(--border-dark); border-radius: var(--radius-sm); padding: 1.5rem;">
-          <h4 style="font-family: var(--font-heading); font-size: 1.1rem; color: var(--text-white); margin-bottom: 0.5rem;">
-            3. Can I take a free trial before paying for a membership?
-          </h4>
-          <p style="color: var(--text-gray); font-size: 0.9rem; line-height: 1.6; margin: 0;">
-            Yes! We offer a 1-day complimentary workout pass so you can inspect the machines, test the dumbbell range, and experience the gym environment first-hand. <a href="contact.html" style="color: var(--accent); font-weight: 700;">Claim your free trial pass here →</a>
-          </p>
-        </div>
-
-        <div style="background: var(--bg-card); border: 1px solid var(--border-dark); border-radius: var(--radius-sm); padding: 1.5rem;">
-          <h4 style="font-family: var(--font-heading); font-size: 1.1rem; color: var(--text-white); margin-bottom: 0.5rem;">
-            4. What payment methods are accepted?
-          </h4>
-          <p style="color: var(--text-gray); font-size: 0.9rem; line-height: 1.6; margin: 0;">
-            We accept all UPI applications (Google Pay, PhonePe, Paytm), cash, and direct bank transfers at the reception counter. Instant digital payment receipt will be issued on your WhatsApp number.
-          </p>
-        </div>
-
-        <div style="background: var(--bg-card); border: 1px solid var(--border-dark); border-radius: var(--radius-sm); padding: 1.5rem;">
-          <h4 style="font-family: var(--font-heading); font-size: 1.1rem; color: var(--text-white); margin-bottom: 0.5rem;">
-            5. What are the operating timings of the gym?
-          </h4>
-          <p style="color: var(--text-gray); font-size: 0.9rem; line-height: 1.6; margin: 0;">
-            We are open Monday through Saturday from <strong>6:00 AM to 10:30 PM</strong> with continuous all-day access. On Sundays, we are open in the evening from <strong>3:00 PM to 8:00 PM</strong>.
-          </p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
   <!-- CTA Banner -->
   <section class="cta-banner">
-    <div class="container cta-content">
+    <div class="container">
       <h2>Ready to Lock In the Ongoing Sale?</h2>
-      <p>Secure the 3 Months + 1 Month FREE deal before slots fill up. Contact our desk right now via WhatsApp.</p>
-      <div class="hero-actions" style="justify-content: center;">
-        <a href="https://wa.me/918050184577?text=Hi%2C%20I%20want%20to%20claim%20the%20ongoing%20membership%20sale%20at%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">💬 Message on WhatsApp</a>
-        <a href="contact.html" class="btn btn-outline btn-lg">Claim Free 1-Day Trial</a>
+      <p>Secure the 3 Months + 1 Month FREE deal before slots fill up. Contact head coach Dhana directly via WhatsApp.</p>
+      <div class="cta-buttons">
+        <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20I%20want%20to%20claim%20the%20ongoing%20membership%20sale%20at%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">💬 Message on WhatsApp</a>
+        <a href="contact.html" class="btn btn-outline-white btn-lg">Claim Free 1-Day Trial</a>
       </div>
     </div>
   </section>
@@ -390,16 +344,17 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-col">
-          <div class="logo" style="margin-bottom: 1rem;">
+          <div class="logo" style="margin-bottom: 0.85rem;">
             <div class="logo-badge">GB</div>
             <div class="logo-text">
-              <h4 style="margin: 0;">Glute Base</h4>
-              <span>Gym &amp; Fitness Centre</span>
+              <h4 style="margin: 0; color: var(--text-white);">Glute Base &times; Fuel Base</h4>
+              <span>Strength &amp; Nutrition Powerhouse</span>
             </div>
           </div>
-          <p style="font-size: 0.875rem; line-height: 1.6;">
-            Premiere strength, hypertrophy, and glute-specialized fitness studio in Venkateshwara Layout, SG Palya, Bengaluru.
+          <p style="font-size: 0.86rem; line-height: 1.6; margin-bottom: 0.85rem;">
+            Premiere strength, hypertrophy, and nutrition facility in Venkateshwara Layout, SG Palya, Bengaluru.
           </p>
+          <span class="badge-clean pink">⭐ 5.0 ★ Rated on Google</span>
         </div>
 
         <div class="footer-col footer-links">
@@ -407,8 +362,8 @@
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Gym</a></li>
-            <li><a href="programs.html">Programs &amp; Equipment</a></li>
-            <li><a href="membership.html">Memberships &amp; Deals</a></li>
+            <li><a href="programs.html">Programs &amp; Gear</a></li>
+            <li><a href="membership.html">Tariffs &amp; Deals</a></li>
             <li><a href="contact.html">Contact &amp; Pass</a></li>
           </ul>
         </div>
@@ -425,25 +380,25 @@
 
         <div class="footer-col">
           <h4>Timings &amp; Contact</h4>
-          <p style="font-size: 0.85rem; margin-bottom: 0.5rem;">
-            Mon – Sat: 6:00 AM – 10:30 PM<br>
-            Sunday: 3:00 PM – 8:00 PM
+          <p style="font-size: 0.85rem; margin-bottom: 0.4rem; color: var(--text-slate);">
+            <strong>Mon – Sat:</strong> 6:00 AM – 10:30 PM<br>
+            <strong>Sunday:</strong> 3:00 PM – 8:00 PM
           </p>
-          <p style="font-size: 0.85rem; color: #d1d5db; margin-bottom: 0.75rem;">
+          <p style="font-size: 0.85rem; color: var(--text-gray); margin-bottom: 0.75rem;">
             158, 4th Cross Road, Venkateshwara Layout, SG Palya, Bengaluru 560029
           </p>
-          <a href="tel:+918050184577" style="color: var(--accent); font-weight: 800;">📞 +91 80501 84577</a>
+          <a href="tel:+918050184577" style="color: var(--cyan); font-weight: 800;">📞 +91 80501 84577</a>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <div>© 2026 Glute Base Gym &amp; Fitness Centre. All rights reserved.</div>
+        <div>© 2026 Glute Base Gym &amp; Fuel Base Kitchen. All rights reserved.</div>
         <div style="color: var(--text-muted);">Venkateshwara Layout, SG Palya, Bengaluru.</div>
       </div>
     </div>
   </footer>
 
-  <a href="https://wa.me/918050184577?text=Hi%2C%20I%20have%20an%20inquiry%20about%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="floating-whatsapp" aria-label="WhatsApp Glute Base Gym">
+  <a href="https://wa.me/918050184577?text=Hi%20Dhana%2C%20I%20have%20an%20inquiry%20about%20Glute%20Base%20Gym." target="_blank" rel="noopener" class="floating-whatsapp" aria-label="WhatsApp Glute Base Gym">
     💬
   </a>
 
