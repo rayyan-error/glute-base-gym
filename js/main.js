@@ -1,12 +1,12 @@
 /**
- * Glute Base Gym & Fitness Centre - Main JavaScript
- * Handles Mobile Menu, WhatsApp Form Handoff, Active Nav Highlighting
- * Constraint: Simple, zero animations
+ * Glute Base Gym & Fuel Base Nutrition Kitchen — Main Interactive Script
+ * Handles Dual-Concept Segmented Switcher, ScrollSpy, Mobile Menu, and WhatsApp Trial / Pre-Order Form
  */
 
 document.addEventListener('DOMContentLoaded', () => {
   initMobileNav();
   highlightCurrentPage();
+  initDualConceptSwitcher();
   initPassForm();
 });
 
@@ -26,6 +26,13 @@ function initMobileNav() {
         btn.innerHTML = '☰';
       }
     });
+
+    nav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        nav.classList.remove('show');
+        btn.innerHTML = '☰';
+      });
+    });
   }
 }
 
@@ -39,6 +46,46 @@ function highlightCurrentPage() {
   });
 }
 
+function initDualConceptSwitcher() {
+  const tabs = document.querySelectorAll('.concept-tab[data-target]');
+  if (!tabs.length) return;
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', (e) => {
+      const targetId = tab.getAttribute('data-target');
+      const targetEl = document.getElementById(targetId);
+
+      if (targetEl) {
+        e.preventDefault();
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        targetEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+
+  // Update active switcher pill on scroll
+  const gluteSection = document.getElementById('glute-base');
+  const fuelSection = document.getElementById('fuel-base');
+
+  if (gluteSection && fuelSection) {
+    window.addEventListener('scroll', () => {
+      const scrollPos = window.scrollY + 240;
+      const fuelTop = fuelSection.offsetTop;
+
+      if (scrollPos >= fuelTop) {
+        tabs.forEach(t => {
+          t.classList.toggle('active', t.getAttribute('data-target') === 'fuel-base');
+        });
+      } else {
+        tabs.forEach(t => {
+          t.classList.toggle('active', t.getAttribute('data-target') === 'glute-base');
+        });
+      }
+    }, { passive: true });
+  }
+}
+
 function initPassForm() {
   const form = document.getElementById('free-pass-form');
   if (!form) return;
@@ -48,7 +95,7 @@ function initPassForm() {
 
     const name = document.getElementById('pass-name')?.value.trim();
     const phone = document.getElementById('pass-phone')?.value.trim();
-    const plan = document.getElementById('pass-interest')?.value || 'Free 1-Day Trial Pass';
+    const plan = document.getElementById('pass-interest')?.value || 'Book 1-Day Trial Session';
     const goal = document.getElementById('pass-goal')?.value || 'Strength & Muscle Building';
 
     if (!name || !phone) {
@@ -56,12 +103,12 @@ function initPassForm() {
       return;
     }
 
-    const text = `*Inquiry: Glute Base Gym & Fitness Centre*%0A%0A` +
+    const text = `*Inquiry: Glute Base Gym & Fuel Base Kitchen*%0A%0A` +
       `*Name:* ${encodeURIComponent(name)}%0A` +
       `*Phone:* ${encodeURIComponent(phone)}%0A` +
-      `*Interest / Plan:* ${encodeURIComponent(plan)}%0A` +
+      `*Interest / Concept:* ${encodeURIComponent(plan)}%0A` +
       `*Primary Fitness Goal:* ${encodeURIComponent(goal)}%0A%0A` +
-      `_Sent via Glute Base Gym Website_`;
+      `_Sent via Glute Base & Fuel Base Official Portal_`;
 
     const url = `https://wa.me/918050184577?text=${text}`;
     window.open(url, '_blank');
